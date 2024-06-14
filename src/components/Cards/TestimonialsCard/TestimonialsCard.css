@@ -1,0 +1,40 @@
+/* Testimonials */
+.testimonials {
+  padding-top: var(--padding-primary);
+  padding-bottom: var(--padding-primary);
+  position: relative;
+}
+.testimonials .box {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
+  border-radius: 6px;
+  position: relative;
+  transition: transform var(--main-transition), box-shadow var(--main-transition);
+}
+.testimonials .box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+}
+.testimonials .box img {
+  position: absolute;
+  right: -10px;
+  top: -50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid var(--color-primary);
+}
+.testimonials .box h3 {
+  margin: 0 0 10px;
+}
+.testimonials .box .title {
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+.testimonials .box .rate .filled {
+  color: #ffc107;
+}
+.testimonials .box p {
+  margin-top: 10px;
+}

@@ -1,0 +1,40 @@
+.btn{
+    text-transform: uppercase;
+    margin: 10px;
+    position: relative;
+    z-index: 1;
+    background-color: var(--color-primary);
+    color: var(--color-darkest);
+    border: 1px solid var(--color-darkest);
+    transition: 0.5s;
+}
+.btn:hover{
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 50px var(--color-darkest);
+}
+.primary-btn{
+    background-color: var(--color-primary);
+}
+.primary-btn:hover{
+    background-color: var(--color-primary-transparent);
+}
+.secondary-btn{
+    background-color: var(--color-primary-transparent);
+}
+.secondary-btn{
+    background-color: var(--color-primary-transparent);
+}
+.secondary-btn:hover{
+    background-color: var(--color-primary);
+    color: var(--color-darkest);
+    box-shadow: 10px 10px 50px var(--color-primary-transparent);
+}
+.delete-btn{
+    background-color: var(--color-light);
+    color: var(--color-darkest);
+}
+.delete-btn:hover{
+    background-color: var(--color-darkest);
+    color: var(--color-light);
+    box-shadow: 10px 10px 50px red;
+}

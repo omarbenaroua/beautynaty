@@ -1,0 +1,19 @@
+.gallery {
+    padding-bottom: var(--padding-primary);
+  }
+  .gallery .shuffle {
+    display: flex;
+    justify-content: center;
+  }
+  .gallery .shuffle li {
+    padding: 10px;
+  }
+  .gallery .shuffle li.active {
+    background-color: var(--main-color);
+    color: white;
+  }
+  .gallery .imgs-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }

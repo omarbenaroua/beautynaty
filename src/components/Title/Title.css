@@ -1,0 +1,36 @@
+.main-title {
+  text-align: center;
+  padding-top: calc(var(--padding-primary) * 3);
+  padding-bottom: calc(var(--padding-primary) * 2);
+}
+.main-title h2 {
+  font-size: 40px;
+  position: relative;
+  text-transform: uppercase;
+}
+.main-title h2::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  background-color: var(--color-darkest);
+  bottom: -30px;
+  width: 120px;
+}
+.main-title h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--color-darkest);
+  bottom: -38px;
+  background-color: var(--color-primary);
+}
+.main-title p {
+  width: 550px;
+  margin: 0 auto 100px;
+}

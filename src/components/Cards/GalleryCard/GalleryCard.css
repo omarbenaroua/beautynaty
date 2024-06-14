@@ -1,0 +1,26 @@
+.gallery-box {
+    overflow: hidden;
+    position: relative;
+}
+.gallery-box:hover img {
+    transform: scale(1.1);
+    width: 300px;
+}
+.gallery-box img {
+    max-width: 100%;
+    transition: 0.3s;
+}
+
+
+/* Media */
+@media (min-width: 768px) {
+    .gallery-box {
+        flex-basis: 50%;
+    }
+}
+@media (min-width: 1199px) {
+    .gallery-box {
+        flex-basis: 25%;
+    }
+}
+

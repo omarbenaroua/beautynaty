@@ -1,0 +1,36 @@
+.card-shop{
+    position: fixed;
+    top: 58px;
+    right: 13px;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 100%);
+}
+.card-shop .list-group{
+    background-color: var(--color-primary);
+    max-height: 550px;
+    overflow-y: auto;
+}
+.card-shop .list-group .col-md-8{
+    margin-top:20px;
+}
+.card-shop .list-group .img-fluid{
+    margin: 25px 0px;
+    height: 80px;
+}
+.card-shop .list-group .col-md-8 .fa-solid{
+    position: relative;
+    top:-20px;
+    color: red;
+}
+.card-shop .list-group .col-md-8 .fa-solid:hover{
+    box-shadow: 10px 10px 50px red;
+}
+.card-shop .info-cart{
+    color: var(--color-light);
+    background-color: var(--color-darkest);
+    padding: calc(var(--padding-primary) / 3);
+    font-size: 20px;
+}
+.card-shop .info-cart .fa-solid{
+    margin: 0px 5px;
+    color: red;
+}

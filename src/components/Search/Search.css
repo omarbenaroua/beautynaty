@@ -1,0 +1,17 @@
+.form-control{
+    background-color: var(--color-primary);
+    color: var(--color-darkest);
+    border: 1px solid var(--color-darkest);
+    min-width: 300px;
+  }
+  .name-list{
+    position: absolute;
+    right: 190px;
+    top: 60px;
+    min-width: 300px;
+    max-width: 300px;
+    background-color: var(--color-primary);
+    color: var(--color-darkest);
+    border-radius: calc(var(--border-radius-primary)/2);
+    padding: calc(var(--padding-primary)/3);
+  }
