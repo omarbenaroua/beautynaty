@@ -14,24 +14,25 @@ const TextBox = () => {
           transition={{ duration: 1.5 }}
         >
           <h2>
-            Want to cuddle and relax?
+          Vuoi coccolarti e rilassarti?
             <br />
-            Welcome to our beauty shop!
+          Benvenuti nel nostro negozio di estetica!
           </h2>
           <p>
-            We are here to take care of your appearance and well-being, offering
-            you a wide range of beauty treatments and products high quality for
-            body care.
+          Siamo qui per prenderci cura del tuo aspetto e del tuo benessere, offrendoti
+          una vasta gamma di trattamenti di bellezza e prodotti di alta qualità per la
+          cura del corpo.
           </p>
           <PrimaryButton>
             <i className="fa-solid fa-location-dot" />
             <a 
               className="location"
               target="_blank"
-              href="https://www.google.ch/maps/place/Gudo"
+              href="https://www.google.ch/maps/place/Milano"
+              rel="noopener noreferrer"
             >
               {" "}
-              Where are we
+              Dove ci troviamo
             </a>
           </PrimaryButton>
 
@@ -43,7 +44,7 @@ const TextBox = () => {
               offset={-300}
               duration={300}
             >
-              Contact us
+              Contattaci
             </Link>
           </PrimaryButton>
 

@@ -1,6 +1,16 @@
 .scroll{
-    background-color: red;
     position: fixed;
-    bottom: 30px;
+    bottom: 3%;
     z-index: 1;
+    right: 2%;
+}
+.scroll .scroll-up{
+    padding: 10px;
+    border-radius: 10%;
+    background-color: var(--color-primary);
+}
+
+ .scroll .scroll-up .fa-solid{
+    font-size: 15px;
+    margin: 5px;
 }

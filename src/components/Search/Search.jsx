@@ -37,7 +37,7 @@ const Search = () => {
   const lastPara = useRef();
   const focus = () => {
     lastPara.current.focus();
-    lastPara.current.value = "E una ancora in fase di sviluppo";
+    lastPara.current.value = "E ancora in fase di sviluppo";
   };
 
 

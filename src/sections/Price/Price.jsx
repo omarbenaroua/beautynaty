@@ -14,7 +14,7 @@ const Price = () => {
   })
   return (
     <>
-    <Title>Price List</Title>
+    <Title>Products list </Title>
     <div className="price" id="price">
     <div className="container">
     {infoPrice}

@@ -1,5 +1,5 @@
 import './About.css'
-import {Footer, Gallery} from '../../sections/index'
+import {Footer, Gallery , Testimonials} from '../../sections/index'
 import {Container} from "../../components/index";
 
 const About = () => {
@@ -8,6 +8,7 @@ const About = () => {
     <Container>
       <Gallery/>
     </Container>
+    <Testimonials/>
     <Footer/>
     </>
   )

@@ -17,6 +17,7 @@
    .price-box .content p {
     margin: 10px 0 0;
     line-height: 1.5;
+    height: 30px;
   }
    .price-box .info {
     padding: 20px;
@@ -25,7 +26,7 @@
     justify-content: space-between;
     align-items: center;
   }
-   .price-box .info a {
+   .price-box .info p {
     color: var(--color-darkest);
     font-weight: bold;
     font-size: 18px;

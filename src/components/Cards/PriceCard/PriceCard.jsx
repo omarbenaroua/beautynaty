@@ -15,7 +15,7 @@ const dispatch = useDispatch();
           <p>{info.text}</p>
         </div>
         <div className="info">
-          <a href=" ">{info.price}€</a>
+          <p>{info.price}€</p>
           <PrimaryButton action={() => dispatch(addToCart({
             id: info.id,
             img: info.img,

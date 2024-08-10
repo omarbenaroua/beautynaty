@@ -17,13 +17,5 @@ const NavItem = (props) => {
   )
 }
 
-const NavDropdown = (props) => {
-  return (
-    <ul className="dropdown-menu">
-        {props.children}
-    </ul>
-  )
-}
-
 export default NavItem
-export {NavDropdown}
+

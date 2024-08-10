@@ -1,7 +1,7 @@
 import "./Header.css"
 import {Link} from 'react-router-dom'
 import Logo from "../../assets/icons/logo.png"
-import {NavItem , NavDropdown ,Search, Cart, ScrollUp} from "../../components/index"
+import {NavItem ,Search, Cart, ScrollUp} from "../../components/index"
 
 const Header = () => {
   return (
@@ -18,22 +18,12 @@ const Header = () => {
           <Link to="/" className="nav-link active" aria-current="page" href=" ">Home</Link>
         </NavItem>
         <NavItem>
+          <Link to="/About" className="nav-link" aria-current="page" href=" ">About</Link>
+        </NavItem> 
+        <NavItem>
         <Link to="/Services" className="nav-link" aria-current="page" href=" ">Services</Link>
         </NavItem>
-        <NavItem>
-          <Link to="/About" className="nav-link" aria-current="page" href=" ">About</Link>
-        </NavItem>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href=" " role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Other
-          </a>
-          <NavDropdown>
-            <li><a className="dropdown-item" href=" ">Contact</a></li>
-            <li><a className="dropdown-item" href=" ">Prices</a></li>
-            <li><hr className="dropdown-divider"></hr></li>
-            <li><a className="dropdown-item" href=" ">Something else here</a></li>
-          </NavDropdown>
-        </li>
+
       </ul>
       <Search/>
     </div>

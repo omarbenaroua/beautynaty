@@ -2,7 +2,6 @@
 export {default as Container} from './Container/Container'
 //NavItem
 export {default as NavItem} from './NavItem/NavItem'
-export {NavDropdown} from './NavItem/NavItem'
 //Search
 export {default as Search} from './Search/Search'
 //Text Box
